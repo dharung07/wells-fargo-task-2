@@ -86,7 +86,7 @@ public class Security {
     this.purchaseDate = purchaseDate;
   }
 
-  public float getQuantity() {
+  public int getQuantity() {
     return quantity;
   }
 

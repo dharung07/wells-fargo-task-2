@@ -41,4 +41,56 @@ public class Security {
     this.purchaseDate = purchaseDate;
     this.quantity = quantity;
   }
+
+  public long getSecurityId() {
+    return securityId;
+  }
+
+  public Portfolio getPortfolio() {
+    return portfolio;
+  }
+
+  public void setPortfolio(Portfolio portfolio) {
+    this.portfolio = portfolio;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public String getCategory() {
+    return category;
+  }
+
+  public void setCategory(String category) {
+    this.category = category;
+  }
+
+  public String getPurchasePrice() {
+    return purchaseDate;
+  }
+
+  public void setPurchasePrice(Double purchasePrice) {
+    this.purchasePrice = purchasePrice;
+  }
+
+  public String getPurchaseDate() {
+    return purchaseDate;
+  }
+
+  public void setPurchaseDate(String purchaseDate) {
+    this.purchaseDate = purchaseDate;
+  }
+
+  public float getQuantity() {
+    return quantity;
+  }
+
+  public void setQuantity(int quantity) {
+    this.quantity = quantity;
+  }
 }
